@@ -14,7 +14,7 @@
  
 ### Cronograma:
 
--	2 meses de selección. 
+- 2 meses de selección. 
 	- Miercoles 17 de enero se libera el curso de iniciante en programación
 	- Martes 23 de enero Challenge Encriptador + live 9pm
 	- Jueves 25 de enero último día para completar el primer curso Curso Lógica de programación (javascript)
@@ -23,10 +23,23 @@
 	- Semana de 21 a 27 de marzo, semana de ??
 - Luego del proceso de selección, se puede elegir entre front o back
 
-
-![](https://github.com/analopbec/ONE_oracle/blob/main/img/crono2.jpg)
-
-  ### Requisitos:
-  - Finalizar cursos, pruebas y challenges (asincrónicos)
+### Cursos
+- [Iniciación a la programación](##Curso-I-Iniciacion-a-la-programacion)
 
 
+### imagen?? ![](https://github.com/analopbec/ONE_oracle/blob/main/img/crono2.jpg)
+![](https://github.com/analopbec/ONE_oracle/blob/main/img/crono2.jpg?raw=true)
+
+
+### Requisitos:
+- Finalizar cursos, pruebas y challenges (asincrónicos)
+		
+  
+```
+		
+//bloque de codigo...
+		
+```
+
+
+## Curso I Iniciacion a la programacion
