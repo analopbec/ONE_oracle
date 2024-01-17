@@ -1,6 +1,6 @@
 # ONE_oracle
 ## Programa One Alura + Oracle Next Education. 
-![](img/oracle.jfif)
+![](https://github.com/analopbec/ONE_oracle/img/oracle.jfif)
 
 ### Responsables:
 - Cristian Velasco Head de Alura Latam
