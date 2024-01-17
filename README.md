@@ -24,7 +24,7 @@
 - Luego del proceso de selección, se puede elegir entre front o back
 
 ### Cursos
-- [Iniciación a la programación](##Curso-I-Iniciacion-a-la-programacion)
+- [Iniciación a la programación](#Curso-I-Iniciacion-a-la-programacion)
 
 
 ### imagen?? ![](https://github.com/analopbec/ONE_oracle/blob/main/img/crono2.jpg)
@@ -42,4 +42,5 @@
 ```
 
 
-## Curso I Iniciacion a la programacion
+# Curso I Iniciacion a la programacion
+
