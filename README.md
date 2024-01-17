@@ -1,5 +1,7 @@
 # ONE_oracle
 ## Programa One Alura + Oracle Next Education. 
+![](img/oracle.jfif)
+
 ### Responsables:
 - Cristian Velasco Head de Alura Latam
 - Amanda Gelumbauskas
