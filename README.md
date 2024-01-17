@@ -23,7 +23,7 @@
 	- Semana de 21 a 27 de marzo, semana de ??
 - Luego del proceso de selección, se puede elegir entre front o back
 
-  ![](https://github.com/analopbec/ONE_oracle/blob/main/img/cronograma.png)
+  ![](https://github.com/analopbec/presentacion_ana-lopezbecerra/blob/main/img/crono2.jpg)
 
   ### Requisitos:
   - Finalizar cursos, pruebas y challenges (asincrónicos)
