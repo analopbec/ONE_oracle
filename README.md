@@ -27,8 +27,7 @@
 - [Iniciación a la programación](#Curso-I-Iniciacion-a-la-programacion)
 
 
-### imagen?? ![](https://github.com/analopbec/ONE_oracle/blob/main/img/crono2.jpg)
-![](https://github.com/analopbec/ONE_oracle/blob/main/img/crono2.jpg?raw=true)
+![](https://github.com/analopbec/ONE_oracle/blob/main/img/crono2.jpg)
 
 
 ### Requisitos:
@@ -36,11 +35,163 @@
 		
   
 ```
-		
-//bloque de codigo...
-		
+//bloque de codigo...		
 ```
 
 
+
 # Curso I Iniciacion a la programacion
+
+## Javascript
+
+![¿Qué es JavaScript?](https://developer.mozilla.org/es/docs/Learn/JavaScript/First_steps/What_is_JavaScript)
+
+![Guía Javascript](https://www.aluracursos.com/blog/guia-de-javascript)
+
+![Primer Programa: ](https://github.com/analopbec/logica-programacion1) 
+
+
+### Contenido Inicial
+
+- Alertar, mostrar un mensaje en un pop-up de la página --> alert('Hola Mundo');
+- Incluir el archivo .js en el archivo html: <script src="app.js"></script>
+- Pedirle que ingrese un dato al usuario --> prompt
+- Variables: en camelCase (let) o (var)
+- Console.log --> visualiza en la consola
+- Comentar: //comentario /* comentario */
+- typeof(variable) —> me trae el tipo de mensaje
+- Para que aparezca en la pantalla del html: documento.writeln(“mensaje”, sumaPruba)
+- constante: const
+- limpiar pantalla: console.log(clear)
+NaN —> not a number
+==
+&&
+===
+!=
+!==
+null
+
+### Condicionales: 
+- if (condicion) {} else {}
+- condicion? hacer esto : si no otra cosa	
+```
+If(variable >4){
+consolé.log(sdfsd) —> que hacemos si se cumple la funcion
+} else If (variable=4) {
+if() {} else {}
+} else {}
+
+```
+
+
+Expresión regular para saber si un nombre contiene letras y estaciones --> Devuelve true o false
+```
+Var nombre = prompt(“ingrese nombre“)
+var nombreTest = /ˆ[A-Za-z\s]+$/.test(nombre)
+```
+
+Swich —> analizar casos posibles específicos. Por ejemplo calificaciones, días de semana etc
+```
+switch(variable){
+	case valor1:
+		hacer algo ej alert(“lunes”)
+		break;
+	case valor2:
+		hacer algo ej alert(“martes)
+		break;
+	etc….
+	default:
+		equivale al else
+		break;
+}
+```
+
+
+### Bucles
+
+- While --> primero se inicializa un contador i = 0
+- do while
+  
+```
+While (i < 5) {
+	hacer algo
+	i = i + 1 // i++ // contador++
+}
+
+let contador = 0
+While (contador <10)
+	console.log(`cuenta: ${contador}`);
+	contador++;
+
+```
+
+- For --> For(inicialización; condición; contador)
+
+```
+For(inicialización; condición; contador)
+for( var i=1; i<10; i++){
+hacer algo;
+}
+
+```
+- Funciones
+
+```
+function nombreFuncion() {
+	hacer algo
+}
+
+```
+
+- Objetos 
+
+```
+const nombre = {
+	lista: [],
+	atributo: numero,
+	atributo2: true,
+	metodo(){
+		this.atributo +=1},
+metodo(atributo){
+	return xxxx
+},
+metodo3(){
+	if(pasa algo) {this.atributoxxxxx}
+else {this.atributo pasa otra cosa}
+},
+metodo4(algo){ return this.atributo ? Algo : otra cosa}
+```
+
+- Listas:
+	 - Math.max(0,variable) // Math.min
+	 - Math.round o .toFixed(2) para 2 decimales
+	 - Lista.filter(x=> x > y) // Lista.reduce((a,b) => a + b , 0)
+	 - .every // .map // .some // .length. // .includes(algo) // .apply() //
+	 - Math.max(…this.lista) // Lista.push(…otraLista)
+	 - .pop saca elementos lista.pop() borra el ultimo o shift o slice o splice
+	 - Splice(posición,borrar,agregar,agregar…)
+
+
+### Clases
+
+```
+class ejemplo {
+	#name —> atributo privado
+	constructor(nombre, precio, detalle) {
+	this.#name = nombre;
+	this.prec = precio;
+	}
+	metodo(){
+	}
+	metodo2(precio){
+	return xxx
+	}
+} 
+
+```
+module.exports = {ejemplo}
+const {ejemplo} = require(‘.pagina.js’)
+const plancha = new ejemplo("Pepe", 2, true)
+
+
 
