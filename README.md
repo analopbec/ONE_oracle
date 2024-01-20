@@ -53,16 +53,6 @@
 
 ### Contenido Inicial
 
-- Alertar, mostrar un mensaje en un pop-up de la página --> alert('Hola Mundo');
-- Incluir el archivo .js en el archivo html: <script src="app.js"></script>
-- Pedirle que ingrese un dato al usuario --> prompt
-- Variables: en camelCase (let) o (var)
-- Console.log --> visualiza en la consola
-- Comentar: //comentario /* comentario */
-- typeof(variable) —> me trae el tipo de mensaje
-- Para que aparezca en la pantalla del html: documento.writeln(“mensaje”, sumaPruba)
-- constante: const
-- limpiar pantalla: console.log(clear)
 NaN —> not a number
 ==
 &&
@@ -71,9 +61,39 @@ NaN —> not a number
 !==
 null
 
+- Buenas prácticas: utilizar ";"
+	- Fin de Archivo
+	- llave de cierre
+	- luego de palabras reservadas (break, 
+
+- Alertar, mostrar un mensaje en un pop-up de la página --> alert('Hola Mundo');
+- Incluir el archivo .js en el archivo html: <script src="app.js"></script>
+- Pedirle que ingrese un dato al usuario --> prompt
+
+- Console.log --> visualiza en la consola
+- Comentar: //comentario /* comentario */
+- typeof(variable) —> me trae el tipo de mensaje
+- Para que aparezca en la pantalla del html: documento.writeln(“mensaje”, sumaPruba)
+- parseInt() --> garantiza que sea un número
+
+- limpiar pantalla: console.log(clear)
+
+
+### Variables
+- Variables: en camelCase (let) o (var) y constante (const)
+
+#### Como saber si usar var, let o const??
+- Var es una variable que sin importar donde la declaremos, vamos a poder acceder a ella desde cualquier lugar del código
+- let solo y unicamente dentro de un bloque de código en particular
+- const es un tipo de variable pensada para que no pueda cambiar en todo el programa --> solo lectura
+Actualmente no se recomienda usar var. Es  mejor utilizar let o const. Debido a que 'var', permite volver a declarar la misma variable, o cambiar el contenido de esta variable desde otro scope. Lo cual puede generar errores y no lo sabrias. En cambio let o const no permite esto, y te avisa si una variable con el mismo nombre ya ha sido declarada.
+
+
+
+
 ### Condicionales: 
 - if (condicion) {} else {}
-- condicion? hacer esto : si no otra cosa	
+- Operador ternario: --> condicion? hacer esto : si no otra cosa	
 ```
 If(variable >4){
 consolé.log(sdfsd) —> que hacemos si se cumple la funcion
@@ -109,7 +129,7 @@ switch(variable){
 
 ### Bucles
 
-- While --> primero se inicializa un contador i = 0
+#### - While --> primero se inicializa un contador i = 0
 - do while
   
 ```
@@ -125,16 +145,16 @@ While (contador <10)
 
 ```
 
-- For --> For(inicialización; condición; contador)
+#### - For --> For(inicialización; condición; contador)
 
 ```
 For(inicialización; condición; contador)
-for( var i=1; i<10; i++){
+for( var/let i=1; i<10; i++){
 hacer algo;
 }
 
 ```
-- Funciones
+### Funciones
 
 ```
 function nombreFuncion() {
@@ -193,5 +213,33 @@ module.exports = {ejemplo}
 const {ejemplo} = require(‘.pagina.js’)
 const plancha = new ejemplo("Pepe", 2, true)
 
+### Funcion random
+- Generar un numero aleatorio entre un minimo y un máximo
+
+```
+// op 1
+random = Math.floor(min + Math.random() * max);
+
+// op 2
+function random(min, max) {
+  return Math.floor(min + Math.random() * (max - min));
+}
+
+alert( random(1, 5) );
+
+//op 3
+function getRandomInt(max){
+  return Math.floor(Math.random() * max);
+}
 
 
+```
+
+
+### Libreria Math
+
+- Math.floor() --> lleva al numero entero menor (no redondea)
+- Math.random() // aleatorio entre entre 0 y 1
+- Math.max(a,b) el maximo entre a y b
+- Math.min(a,b) el minimo entre a y b
+- Math.round() redondea el numero
