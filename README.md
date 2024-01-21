@@ -48,8 +48,8 @@
 
 ![Guía Javascript](https://www.aluracursos.com/blog/guia-de-javascript)
 
-![Primer Programa: ](https://github.com/analopbec/logica-programacion1) 
-
+![Juego secreto 1](https://github.com/analopbec/logica-programacion1) 
+![Juego secreto 2](https://github.com/analopbec/juegoSecreto)
 
 ### Contenido Inicial
 
